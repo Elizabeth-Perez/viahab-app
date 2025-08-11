@@ -1,0 +1,14 @@
+services:
+  viahab-app:
+    container_name: viahab-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: mirandajerson/viahab-app:latest
+    ports:
+      - "4200:4200"
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    environment:
+      - CHOKIDAR_USEPOLLING=true
