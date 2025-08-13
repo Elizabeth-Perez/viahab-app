@@ -1,0 +1,16 @@
+<div class="container" [ngClass] = "{
+  'style1' : btnStyle === '1',
+  'style2' : btnStyle === '2',
+  'style3' : btnStyle === '3'}
+">
+  @if (iconPosition === 'left' && btnIcon) {
+    <img [src]="btnIcon" alt="icon" class="icon left" />
+  }
+
+  <p>{{btnText}}</p>
+
+  @if (iconPosition === 'right' && btnIcon) {
+    <img [src]="btnIcon" alt="icon" class="icon right" />
+  }
+
+</div>

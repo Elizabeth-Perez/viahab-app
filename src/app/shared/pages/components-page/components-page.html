@@ -1,0 +1,46 @@
+<div class="container">
+  <shared-btn-standard [btnText]="text1" [btnStyle]="'1'"></shared-btn-standard>
+  <shared-btn-standard [btnText]="text1" [btnStyle]="'2'"></shared-btn-standard>
+  <shared-btn-standard [btnText]="text1" [btnStyle]="'3'"></shared-btn-standard>
+  <shared-btn-standard [btnText]="text2" [btnStyle]="'4'"></shared-btn-standard>
+  <shared-btn-standard [btnText]="text2" [btnStyle]="'5'"></shared-btn-standard>
+  <shared-btn-standard [btnText]="text2" [btnStyle]="'6'"></shared-btn-standard>
+
+  <shared-btn-icon
+    [btnText]="text1"
+    [btnStyle]="'1'"
+    [btnIcon]="url"
+    [iconPosition]="'right'"
+  ></shared-btn-icon>
+  <shared-btn-icon
+    [btnText]="text1"
+    [btnStyle]="'2'"
+    [btnIcon]="url"
+    [iconPosition]="'right'"
+  ></shared-btn-icon>
+  <shared-btn-icon
+    [btnText]="text2"
+    [btnStyle]="'3'"
+    [btnIcon]="url"
+    [iconPosition]="'right'"
+  ></shared-btn-icon>
+
+  <shared-dpd-standard
+    [dpdText]="text1"
+  ></shared-dpd-standard>
+
+  <shared-txi-search-principal
+    [txiPlaceholder]="text1"
+    [btnText]="'Buscar'"
+    [txiIcon]="search"
+    [dpdText]="text1"
+  ></shared-txi-search-principal>
+
+  <shared-txi-search-travel
+    [txiPlaceholder]="text1"
+    [btnText]="'Buscar'"
+    [txiIcon]="travel"
+  ></shared-txi-search-travel>
+</div>
+
+

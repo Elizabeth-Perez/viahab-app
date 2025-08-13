@@ -8,6 +8,8 @@
   --color-tertiary: #d6c5e2;
   --color-complementary-one: #67253d;
   --color-complementary-two: #141b4d;
+  --color-primary-hover: #4b2960;
+  --color-secondary-hover: #191e40;
   --color-success: #28a745;
   --color-danger: #dc3545;
   --color-warning: #ffc107;
@@ -23,6 +25,9 @@
   /* Text */
   --text-color: #212529;
   --text-muted: #888888;
+
+  /* Effects */
+  --box-shadow: rgba(0,0,0,0.2);
 
   --font-main: "Alegreya Sans SC";
   --font-secondary: "AltivoRegular";
