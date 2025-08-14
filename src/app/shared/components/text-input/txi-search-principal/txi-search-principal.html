@@ -3,12 +3,14 @@
     <img [src]="txiIcon" alt="icon" class="icon" />
     <input placeholder={{txiPlaceholder}}/>
   </div>
-  <div class="line-vertical"></div>
-  <shared-dpd-standard
-    [dpdText]="dpdText"
-  ></shared-dpd-standard>
-  <shared-btn-standard
-    [btnText]="btnText"
-    [btnStyle]="'4'"
-  ></shared-btn-standard>
+  <div class="left">
+    <div class="line-vertical"></div>
+    <shared-dpd-standard
+      [dpdText]="dpdText"
+    ></shared-dpd-standard>
+    <shared-btn-standard
+      [btnText]="btnText"
+      [btnStyle]="'4'"
+    ></shared-btn-standard>
+  </div>
 </div>

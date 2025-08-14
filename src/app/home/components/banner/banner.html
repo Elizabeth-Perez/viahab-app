@@ -1,0 +1,15 @@
+<div class="container-banner">
+  <img [src]="images[currentIndex].url" [alt]="images[currentIndex].alt">
+  <div class="search">
+    <div class="text-section">
+      <p class="title">Explora el mundo entero y disfruta su belleza</p>
+      <p class="subtitle">Encuentra y escribe acerca de tus experiencias al rededor del mundo</p>
+    </div>
+    <shared-txi-search-principal
+      [txiPlaceholder]="txiPlaceholder"
+      [txiIcon]="txiIcon"
+      [btnText]="btnText"
+      [dpdText]="dpdText"
+    ></shared-txi-search-principal>
+  </div>
+</div>
