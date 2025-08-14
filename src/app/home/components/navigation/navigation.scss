@@ -1,0 +1,27 @@
+.container-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-white);
+  width: 100%;
+  height: auto;
+  padding: 24px 100px;
+
+  .logo {
+    width: 250px;
+    height: 54px;
+  }
+
+  .menu-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .quick-access {
+
+  }
+}
+

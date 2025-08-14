@@ -1,10 +1,10 @@
-import { Component, signal } from '@angular/core';
-import {ComponentsPage} from './shared/pages/components-page/components-page';
+import { Component } from '@angular/core';
+import {MainHomePage} from './home/pages/main-home-page/main-home-page';
 
 @Component({
   selector: 'app-root',
   imports: [
-    ComponentsPage
+    MainHomePage
   ],
   templateUrl: './app.html',
   styleUrl: './app.scss'

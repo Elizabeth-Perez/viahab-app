@@ -1,10 +1,8 @@
 import {Component, Input} from '@angular/core';
-import {NgClass} from '@angular/common';
 
 @Component({
   selector: 'shared-dpd-standard',
   imports: [
-    NgClass
   ],
   templateUrl: './dpd-standard.html',
   styleUrl: './dpd-standard.scss'

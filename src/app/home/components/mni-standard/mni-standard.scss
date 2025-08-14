@@ -1,0 +1,19 @@
+.container-mni-standard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-white);
+  padding: 16px 24px;
+  cursor: pointer;
+  color: var(--color-dark-gray);
+
+  p {
+    font-family: var(--font-secondary), sans-serif;
+    font-size: var(--font-size-text);
+    font-weight: bold;
+  }
+}
+
+.isSelected {
+  color: var(--text-color);
+}
