@@ -1,0 +1,68 @@
+.popular-destinations-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  padding: 72px 0 72px 100px;
+  gap: 48px;
+
+  .text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    gap: 8px;
+
+    p {
+      font-family: var(--font-secondary), sans-serif;
+      text-shadow: var(--box-shadow-text);
+      text-align: start;
+
+      span {
+        color: var(--color-secondary);
+      }
+    }
+
+    .title {
+      color: var(--color-primary);
+      font-size: var(--font-size-title);
+      font-weight: bold;
+    }
+
+    .subtitle {
+      color: var(--color-dark-gray);
+      font-size: var(--font-size-subtitle);
+    }
+  }
+
+  .cards-scroll-wrapper {
+    width: calc(100% + 100px);
+    margin-left: calc(-100px);
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    gap: 48px;
+    padding-left: 100px;
+    padding-bottom: 8px;
+    flex-wrap: nowrap;
+  }
+  .scroll-padding-end {
+    flex: 0 0 auto;
+    width: 52px;
+    height: 1px;
+  }
+}

@@ -1,0 +1,19 @@
+<div class="popular-destinations-container">
+  <div class="text-section">
+    <p class="title">¡Lo mejor! <span>Destinos populares</span></p>
+    <p class="subtitle">Encuentra tu viaje ideal...</p>
+  </div>
+  <div class="cards-scroll-wrapper">
+    <div class="cards">
+      @for (card of cards; track card) {
+        <home-crd-degraded
+          [crdImage]="card.url"
+          [crdAlt]="card.alt"
+          [crdTitle]="card.title"
+          [crdSubtitle]="card.subtitle"
+        ></home-crd-degraded>
+      }
+      <div class="scroll-padding-end"></div>
+    </div>
+  </div>
+</div>
