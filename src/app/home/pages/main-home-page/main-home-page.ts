@@ -3,6 +3,7 @@ import {Navigation} from '../../components/navigation/navigation';
 import {Banner} from '../../components/banner/banner';
 import {PopularDestinations} from '../../components/popular-destinations/popular-destinations';
 import {HotelPartnerships} from '../../components/hotel-partnerships/hotel-partnerships';
+import {FastContact} from '../../components/fast-contact/fast-contact';
 
 @Component({
   selector: 'home-main-home-page',
@@ -10,7 +11,8 @@ import {HotelPartnerships} from '../../components/hotel-partnerships/hotel-partn
     Navigation,
     Banner,
     PopularDestinations,
-    HotelPartnerships
+    HotelPartnerships,
+    FastContact
   ],
   templateUrl: './main-home-page.html',
   styleUrl: './main-home-page.scss'
