@@ -1,0 +1,20 @@
+<div class="crd-label-container" (click)="toggleTextSection()">
+  <div class="image">
+    <img [src]="crdImage" alt="crdAlt" />
+  </div>
+
+  <div
+    class="text-section"
+    [class.visible]="showTextSection"
+    [class.hidden]="!showTextSection">
+    <shared-lab-fill [labText]="labText"></shared-lab-fill>
+    <p class="title">{{ crdTitle }}</p>
+    <p class="subtitle">{{ crdSubtitle }}</p>
+    <shared-btn-icon
+      [btnText]="btnText"
+      [btnIcon]="btnIcon"
+      [btnStyle]="'2'"
+      [btnGoToURL]="btnGoToURL"
+    ></shared-btn-icon>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+.lab-fill-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-tertiary);
+  padding: 8px 12px;
+  border-radius: 12px;
+
+  p {
+    color: var(--text-color);
+    text-align: center;
+    font-weight: bold;
+    font-family: var(--font-secondary), sans-serif;
+    font-size: var(--font-size-small-text);
+  }
+}

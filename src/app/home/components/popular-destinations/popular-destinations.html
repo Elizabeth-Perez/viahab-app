@@ -1,16 +1,17 @@
 <div class="popular-destinations-container">
   <div class="text-section">
-    <p class="title">¡Lo mejor! <span>Destinos populares</span></p>
-    <p class="subtitle">Encuentra tu viaje ideal. Explora y descubre el destino y la experiencia que siempre has querido vivir.</p>
+    <p class="title">Titulo para la sección <span>Destinos populares</span></p>
+    <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sollicitudin ipsum posuere rutrum tristique. Sed et quam ultrices, eleifend.</p>
   </div>
   <div class="cards-scroll-wrapper">
     <div class="cards">
       @for (card of cards; track card) {
         <home-crd-degraded
-          [crdImage]="card.url"
+          [crdImage]="card.imageUrl"
           [crdAlt]="card.alt"
           [crdTitle]="card.title"
           [crdSubtitle]="card.subtitle"
+          [btnGoToURL]="card.url"
         ></home-crd-degraded>
       }
       <div class="scroll-padding-end"></div>

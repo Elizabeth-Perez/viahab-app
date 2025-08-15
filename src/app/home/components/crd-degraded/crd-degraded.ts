@@ -15,6 +15,7 @@ export class CrdDegraded {
   @Input() crdAlt: string = '';
   @Input() crdTitle: string = '';
   @Input() crdSubtitle: string = '';
+  @Input() btnGoToURL: string = '';
 
   btnText: string = 'Descubrir';
   btnIcon: string = '/icons/arrow-right.svg';
