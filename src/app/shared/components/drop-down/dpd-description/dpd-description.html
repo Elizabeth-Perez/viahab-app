@@ -1,0 +1,14 @@
+<div class="dpd-description-container"
+     [ngClass]="{ 'first-element': isFirst }"
+     (click)="toggleTextSection()">
+  <div class="question">
+    <p class="title-question">{{ dpdTitle }}</p>
+    <img [src]=dpdIcon>
+  </div>
+  <div
+    class="description-section"
+    [class.visible]="showTextSection"
+    [class.hidden]="!showTextSection">
+    <p class="subtitle">{{ dpdDescription }}</p>
+  </div>
+</div>

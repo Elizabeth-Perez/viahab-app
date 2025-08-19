@@ -1,0 +1,23 @@
+<div class="faqs-container">
+  <div class="title-section">
+    <p>Preguntas frecuentes</p>
+  </div>
+  <div class="content-section">
+    <div class="tabs">
+      @for (tab of tabs; track tabs) {
+        <shared-tab-standard
+          [tabText]="tab.nameTab"
+        ></shared-tab-standard>
+      }
+    </div>
+    <div class="questions">
+      @for (question of questions; track question) {
+        <shared-dpd-description
+          [dpdTitle]="question.titleQuestion"
+          [dpdDescription]="question.descriptionQuestion"
+          [isFirst]="questions[0] === question"
+        ></shared-dpd-description>
+      }
+    </div>
+  </div>
+</div>

@@ -1,0 +1,62 @@
+.faqs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 32px 100px 64px 100px;
+  gap: 48px;
+
+  .title-section {
+    width: 100%;
+
+    p {
+      font-family: var(--font-secondary), sans-serif;
+      text-shadow: var(--box-shadow-text);
+      text-align: start;
+      color: var(--color-primary);
+      font-size: var(--font-size-title);
+      font-weight: bold;
+    }
+  }
+
+  .content-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    height: auto;
+    gap: 48px;
+
+    .tabs {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: center;
+      width: 400px;
+      gap: 8px;
+
+      shared-tab-standard {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .questions {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      flex: 1;
+      height: auto;
+
+      shared-dpd-description {
+        width: 100%;
+      }
+
+    }
+  }
+
+}
