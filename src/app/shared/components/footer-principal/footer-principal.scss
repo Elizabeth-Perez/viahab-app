@@ -1,0 +1,118 @@
+.footer-principal-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: var(--color-complementary-two);
+
+  .footer-principal-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    height: auto;
+    padding: 100px;
+    background-color: transparent;
+
+    .information {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 24px;
+      width: auto;
+      height: auto;
+      background-color: transparent;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      .address {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+      }
+
+      .social-media {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        gap: 32px;
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+
+        img {
+          width: 32px;
+          height: 32px;
+        }
+      }
+    }
+
+    .columns {
+      display: flex;
+      flex-direction: row;
+      justify-content: end;
+      align-items: center;
+      gap: 64px;
+      flex: 1;
+      height: auto;
+      background-color: transparent;
+
+      .column {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        gap: 12px;
+        width: auto;
+        height: auto;
+
+        a {
+          width: 100%;
+          text-align: start;
+        }
+
+        .title-column {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  .cinta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    height: 125px;
+    background-color: transparent;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+p {
+  color: var(--color-white);
+  width: 100%;
+  font-family: var(--font-secondary), sans-serif;
+  text-shadow: var(--box-shadow-text);
+  text-align: start;
+}
+
