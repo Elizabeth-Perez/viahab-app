@@ -7,6 +7,7 @@ import {FastContact} from '../../components/fast-contact/fast-contact';
 import {FrequentlyAskedQuestions} from '../../components/frecuently-asked-questions/frequently-asked-questions';
 import {FooterPrincipal} from '../../../shared/components/footer-principal/footer-principal';
 import {FastAboutUs} from '../../components/fast-about-us/fast-about-us';
+import {MaintenanceBanner} from '../../../shared/components/banners/maintenance-banner/maintenance-banner';
 
 @Component({
   selector: 'home-main-home-page',
@@ -19,6 +20,7 @@ import {FastAboutUs} from '../../components/fast-about-us/fast-about-us';
     FrequentlyAskedQuestions,
     FooterPrincipal,
     FastAboutUs,
+    MaintenanceBanner,
   ],
   templateUrl: './main-home-page.html',
   styleUrl: './main-home-page.scss'
