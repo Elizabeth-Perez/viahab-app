@@ -8,17 +8,23 @@
         <p>Ciudad de Mèxico, México</p>
       </div>
       <div class="social-media">
-        <a href="https://facebook.com" target="_blank"><img src="/icons/facebook-fill.svg" alt="facebook" class="logo" /></a>
-        <a href="https://instagram.com" target="_blank"><img src="/icons/instagram-fill.svg" alt="instagram" class="logo" /></a>
+        <a href="https://www.facebook.com/people/Viahab/61575856996757/?mibextid=wwXIfr&rdid=xSs2aIXScL0U9Hu6&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1CMGpN1X2T%2F%3Fmibextid%3DwwXIfr" target="_blank"><img src="/icons/facebook-fill.svg" alt="facebook" class="logo" /></a>
+        <a href="https://www.instagram.com/viahaboficial/?igsh=MXYzdHlmZjRjOWY0YQ%3D%3D#" target="_blank"><img src="/icons/instagram-fill.svg" alt="instagram" class="logo" /></a>
         <a href="https://x.com" target="_blank"><img src="/icons/x-fill.svg" alt="X" class="logo" /></a>
       </div>
     </div>
     <div class="columns">
       <div class="column">
         <p class="title-column">Recursos</p>
-        <a href="https://facebook.com" target="_blank"><p class="option">Aviso de privacidad</p></a>
-        <a href="https://facebook.com" target="_blank"><p>Terminos y condiciones</p></a>
-        <a href="https://facebook.com" target="_blank"><p>Documento turismo</p></a>
+        <a [routerLink]="['/terms', 'condiciones']">
+          <p>Términos y condiciones</p>
+        </a>
+        <a [routerLink]="['/terms', 'privacidad']">
+          <p>Aviso de privacidad</p>
+        </a>
+        <a href="/docs/certificado-turismo.pdf" target="_blank" rel="noopener">
+          <p>Certificado de Turismo</p>
+        </a>
       </div>
     </div>
   </div>

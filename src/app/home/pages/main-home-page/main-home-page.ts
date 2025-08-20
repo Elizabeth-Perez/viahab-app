@@ -6,6 +6,7 @@ import {HotelPartnerships} from '../../components/hotel-partnerships/hotel-partn
 import {FastContact} from '../../components/fast-contact/fast-contact';
 import {FrequentlyAskedQuestions} from '../../components/frecuently-asked-questions/frequently-asked-questions';
 import {FooterPrincipal} from '../../../shared/components/footer-principal/footer-principal';
+import {RouterOutlet} from '@angular/router';
 
 @Component({
   selector: 'home-main-home-page',
@@ -16,7 +17,8 @@ import {FooterPrincipal} from '../../../shared/components/footer-principal/foote
     HotelPartnerships,
     FastContact,
     FrequentlyAskedQuestions,
-    FooterPrincipal
+    FooterPrincipal,
+    RouterOutlet
   ],
   templateUrl: './main-home-page.html',
   styleUrl: './main-home-page.scss'
