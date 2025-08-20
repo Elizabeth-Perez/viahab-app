@@ -10,8 +10,9 @@
   .footer-principal-wrapper {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: start;
+    gap: 64px;
     width: 100%;
     height: auto;
     padding: 100px;
@@ -23,7 +24,7 @@
       justify-content: center;
       align-items: center;
       gap: 24px;
-      width: auto;
+      width: 20%;
       height: auto;
       background-color: transparent;
 
@@ -60,13 +61,35 @@
       }
     }
 
+    .sectur {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 60%;
+      max-width: 500px;
+      height: auto;
+      gap: 64px;
+
+      .logo {
+        width: 250px;
+        cursor: pointer;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+    }
+
     .columns {
       display: flex;
       flex-direction: row;
-      justify-content: end;
+      justify-content: start;
       align-items: center;
       gap: 64px;
-      flex: 1;
+      width: 20%;
       height: auto;
       background-color: transparent;
 

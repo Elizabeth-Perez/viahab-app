@@ -6,6 +6,7 @@ import {HotelPartnerships} from '../../components/hotel-partnerships/hotel-partn
 import {FastContact} from '../../components/fast-contact/fast-contact';
 import {FrequentlyAskedQuestions} from '../../components/frecuently-asked-questions/frequently-asked-questions';
 import {FooterPrincipal} from '../../../shared/components/footer-principal/footer-principal';
+import {FastAboutUs} from '../../components/fast-about-us/fast-about-us';
 
 @Component({
   selector: 'home-main-home-page',
@@ -17,6 +18,7 @@ import {FooterPrincipal} from '../../../shared/components/footer-principal/foote
     FastContact,
     FrequentlyAskedQuestions,
     FooterPrincipal,
+    FastAboutUs,
   ],
   templateUrl: './main-home-page.html',
   styleUrl: './main-home-page.scss'

@@ -1,0 +1,69 @@
+.fast-about-us-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background-image: url("/images/img-fast-about-us.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+
+  .text-section {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    gap: 64px;
+    width: 100%;
+    height: auto;
+    padding: 100px;
+    background-color: rgba(20, 27, 77, 0.6);
+    position: relative;
+
+    p {
+      text-align: start;
+      font-family: var(--font-secondary), sans-serif;
+      color: var(--color-white);
+    }
+
+    .title-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 40%;
+      height: auto;
+      gap: 32px;
+
+      .title {
+        width: 100%;
+        font-weight: bold;
+        font-size: var(--font-size-giant-title);
+      }
+
+      shared-btn-standard {
+        width: 100%;
+      }
+    }
+
+    .description-section {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: start;
+      width: 60%;
+      height: auto;
+
+      .description {
+        width: 100%;
+        height: auto;
+        font-size: var(--font-size-text);
+      }
+    }
+  }
+}
+
+
