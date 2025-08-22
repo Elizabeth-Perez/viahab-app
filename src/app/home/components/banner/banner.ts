@@ -12,9 +12,10 @@ import {TxiSearchPrincipal} from '../../../shared/components/text-input/txi-sear
 })
 export class Banner implements OnInit, OnDestroy {
   public images: { url: string; alt: string; }[] = [
-    { url: '/images/img-banner1.jpg', alt: 'Playa' },
-    { url: '/images/img-banner2.jpg', alt: 'Bellas Artes' },
-    { url: '/images/img-banner3.jpg', alt: 'Festival' },
+    { url: '/images/img-banner-01.jpg', alt: 'Playa' },
+    { url: '/images/img-banner-02.jpg', alt: 'Bellas Artes' },
+    { url: '/images/img-banner-03.jpg', alt: 'Festival' },
+
   ];
   public currentIndex: number = 0;
   timerSubscription?: Subscription;

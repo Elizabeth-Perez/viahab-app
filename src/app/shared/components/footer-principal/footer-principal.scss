@@ -22,7 +22,7 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center;
+      align-items: start;
       gap: 24px;
       width: 20%;
       height: auto;
@@ -30,6 +30,7 @@
 
       img {
         width: 100%;
+        max-width: 300px;
         height: auto;
       }
 
@@ -120,7 +121,7 @@
     justify-content: center;
     align-items: start;
     width: 100%;
-    height: 125px;
+    height: 150px;
     background-color: transparent;
 
     img {
