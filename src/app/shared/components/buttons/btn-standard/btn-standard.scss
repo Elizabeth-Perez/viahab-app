@@ -12,6 +12,7 @@
 .style1 {
   background-color: var(--color-primary);
   color: var(--color-white);
+  transition: transform 0.3s ease-in-out;
 
   p {
     background-color: var(--color-primary);
@@ -21,6 +22,7 @@
     color: var(--color-primary);
     background-color: var(--color-gray);
     cursor: pointer;
+    transform: scale(1.1);
 
     p {
       background-color: var(--color-gray);
@@ -31,6 +33,7 @@
 .style2 {
   background-color: var(--color-secondary);
   color: var(--color-white);
+  transition: transform 0.3s ease-in-out;
 
   p {
     background-color: var(--color-secondary);
@@ -40,6 +43,7 @@
     color: var(--color-secondary);
     background-color: var(--color-gray);
     cursor: pointer;
+    transform: scale(1.1);
 
     p {
       background-color: var(--color-gray);
@@ -50,6 +54,7 @@
 .style3 {
   background-color: var(--color-primary);
   color: var(--color-white);
+  transition: transform 0.3s ease-in-out;
 
   p {
     background-color: var(--color-primary);
@@ -58,6 +63,7 @@
   &:hover {
     background-color: var(--color-primary-hover);
     cursor: pointer;
+    transform: scale(1.1);
 
     p {
       background-color: var(--color-primary-hover);
@@ -68,6 +74,7 @@
 .style4 {
   background-color: var(--color-secondary);
   color: var(--color-white);
+  transition: transform 0.3s ease-in-out;
 
   p {
     background-color: var(--color-secondary);
@@ -76,6 +83,7 @@
   &:hover {
     background-color:  var(--color-secondary-hover);
     cursor: pointer;
+    transform: scale(1.1);
 
     p {
       background-color: var(--color-secondary-hover);
@@ -86,6 +94,7 @@
 .style5 {
   background-color: var(--color-white);
   color: var(--color-primary);
+  transition: transform 0.3s ease-in-out;
 
   p {
     background-color: var(--color-white);
@@ -95,6 +104,7 @@
     color: var(--color-primary);
     background-color:  var(--color-gray);
     cursor: pointer;
+    transform: scale(1.1);
 
     p {
       background-color: var(--color-gray);
@@ -105,6 +115,7 @@
 .style6 {
   background-color: var(--color-white);
   color: var(--color-secondary);
+  transition: transform 0.3s ease-in-out;
 
   p {
     background-color: var(--color-white);
@@ -114,6 +125,7 @@
     color: var(--color-secondary);
     background-color:  var(--color-gray);
     cursor: pointer;
+    transform: scale(1.1);
 
     p {
       background-color: var(--color-gray);

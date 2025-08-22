@@ -6,6 +6,7 @@ import {FaqsPage} from './home/pages/faqs-page/faqs-page';
 
 export const routes: Routes = [
   { path: '', component: MainHomePage },
+  { path: 'home', component: MainHomePage },
   { path: 'document/:type', component: DocumentPage },
   { path: 'faqs', component: FaqsPage },
 ];

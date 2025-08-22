@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
 import {BtnStandard} from '../../../shared/components/buttons/btn-standard/btn-standard';
 import {MniStandard} from '../mni-standard/mni-standard';
+import {RouterLink} from '@angular/router';
 
 @Component({
   selector: 'home-navigation',
   imports: [
     BtnStandard,
-    MniStandard
+    MniStandard,
+    RouterLink
   ],
   templateUrl: './navigation.html',
   styleUrl: './navigation.scss'

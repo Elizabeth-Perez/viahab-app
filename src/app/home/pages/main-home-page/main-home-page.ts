@@ -8,6 +8,7 @@ import {FooterPrincipal} from '../../../shared/components/footer-principal/foote
 import {FastAboutUs} from '../../components/fast-about-us/fast-about-us';
 import {MaintenanceBanner} from '../../../shared/components/banners/maintenance-banner/maintenance-banner';
 import {SocialNetwork} from '../../components/social-network/social-network';
+import {WhatsappButton} from '../../../shared/components/whatsapp-button/whatsapp-button';
 
 @Component({
   selector: 'home-main-home-page',
@@ -21,6 +22,7 @@ import {SocialNetwork} from '../../components/social-network/social-network';
     FastAboutUs,
     MaintenanceBanner,
     SocialNetwork,
+    WhatsappButton,
   ],
   templateUrl: './main-home-page.html',
   styleUrl: './main-home-page.scss'

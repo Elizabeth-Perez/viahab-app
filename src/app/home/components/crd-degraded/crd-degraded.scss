@@ -9,6 +9,7 @@
   border-radius: 24px;
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1), 0 0 0 0 rgba(0, 0, 0, 0.19);
   position: relative;
+  transition: transform 0.3s ease-in-out;
 
   .text-section {
     position: absolute;
@@ -68,6 +69,8 @@
   }
 
   &:hover {
+    transform: scale(1.01);
+
     .text-section {
       background-color: var(--color-white);
       height: 90px;
