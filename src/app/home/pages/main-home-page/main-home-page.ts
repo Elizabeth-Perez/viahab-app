@@ -4,10 +4,10 @@ import {Banner} from '../../components/banner/banner';
 import {PopularDestinations} from '../../components/popular-destinations/popular-destinations';
 import {HotelPartnerships} from '../../components/hotel-partnerships/hotel-partnerships';
 import {FastContact} from '../../components/fast-contact/fast-contact';
-import {FrequentlyAskedQuestions} from '../../components/frecuently-asked-questions/frequently-asked-questions';
 import {FooterPrincipal} from '../../../shared/components/footer-principal/footer-principal';
 import {FastAboutUs} from '../../components/fast-about-us/fast-about-us';
 import {MaintenanceBanner} from '../../../shared/components/banners/maintenance-banner/maintenance-banner';
+import {SocialNetwork} from '../../components/social-network/social-network';
 
 @Component({
   selector: 'home-main-home-page',
@@ -17,10 +17,10 @@ import {MaintenanceBanner} from '../../../shared/components/banners/maintenance-
     PopularDestinations,
     HotelPartnerships,
     FastContact,
-    FrequentlyAskedQuestions,
     FooterPrincipal,
     FastAboutUs,
     MaintenanceBanner,
+    SocialNetwork,
   ],
   templateUrl: './main-home-page.html',
   styleUrl: './main-home-page.scss'

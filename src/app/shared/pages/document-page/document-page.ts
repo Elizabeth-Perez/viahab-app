@@ -2,12 +2,14 @@ import {Component, Input} from '@angular/core';
 import {FooterPrincipal} from '../../components/footer-principal/footer-principal';
 import {Navigation} from '../../../home/components/navigation/navigation';
 import {ActivatedRoute} from '@angular/router';
+import {MaintenanceBanner} from '../../components/banners/maintenance-banner/maintenance-banner';
 
 @Component({
   selector: 'shared-document-page',
   imports: [
     FooterPrincipal,
     Navigation,
+    MaintenanceBanner,
   ],
   templateUrl: './document-page.html',
   styleUrl: './document-page.scss'
@@ -22,7 +24,7 @@ export class DocumentPage {
   ngOnInit() {
     const type = this.route.snapshot.paramMap.get('type');
 
-    if (type === 'condiciones') {
+    if (type === 'terms') {
       this.documentTitle = 'Términos y condiciones';
       this.documentDescription =
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquet tellus sit amet mauris rhoncus, ullamcorper fringilla sem congue. Phasellus vel porttitor nisl, vel faucibus lacus. Vivamus rhoncus hendrerit fringilla. Aliquam egestas nulla at felis iaculis placerat. Mauris at ex dui. Nam sagittis a quam nec consequat. Pellentesque in lectus nec turpis semper tempus at ut elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla quis consequat dolor. Quisque finibus sem condimentum magna placerat, nec gravida nunc cursus. Nulla egestas semper metus nec consequat. Praesent elit dolor, iaculis sit amet felis sit amet, semper posuere elit. Duis sodales sodales enim eu tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc eu lacus maximus nisi faucibus pharetra vitae ac dui. Sed vel nisl sit amet urna viverra convallis vel ut erat.\n' +
@@ -43,7 +45,7 @@ export class DocumentPage {
         'Aliquam at massa facilisis purus lobortis finibus ac in odio. Sed vel lorem at augue cursus tincidunt ac et ligula. Pellentesque semper volutpat sodales. Pellentesque et dapibus ex. Vestibulum ligula tortor, mattis nec sodales id, hendrerit id sapien. Nullam sit amet tortor vitae velit condimentum gravida vehicula eget dolor. Etiam et erat nibh. Nunc tristique lorem enim, vel aliquam lectus pharetra ut. Nullam orci justo, luctus in lacus vitae, tincidunt maximus ipsum. Mauris ut hendrerit nunc. Etiam fermentum massa et tempor pellentesque. Vivamus consequat libero lacus, vitae lobortis sem sollicitudin sit amet. Vivamus mattis, libero et semper aliquam, nisl lorem aliquet neque, a ullamcorper nunc nisl id enim. Vestibulum sed vestibulum sem. Suspendisse non blandit libero.\n' +
         '\n' +
         'Nulla auctor iaculis posuere. In nec venenatis ante, ultrices varius massa. Nullam condimentum dolor ac nibh dignissim, pellentesque auctor diam porttitor. Vestibulum diam metus, congue id ultrices a, maximus a magna. Ut eros diam, pulvinar sed felis nec, imperdiet mattis tellus. Maecenas ornare porta ex, a eleifend nulla placerat ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis efficitur orci, a feugiat leo. Sed pellentesque luctus elit convallis maximus.';
-    } else if (type === 'privacidad') {
+    } else if (type === 'privacy') {
       this.documentTitle = 'Aviso de privacidad';
       this.documentDescription = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquet tellus sit amet mauris rhoncus, ullamcorper fringilla sem congue. Phasellus vel porttitor nisl, vel faucibus lacus. Vivamus rhoncus hendrerit fringilla. Aliquam egestas nulla at felis iaculis placerat. Mauris at ex dui. Nam sagittis a quam nec consequat. Pellentesque in lectus nec turpis semper tempus at ut elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla quis consequat dolor. Quisque finibus sem condimentum magna placerat, nec gravida nunc cursus. Nulla egestas semper metus nec consequat. Praesent elit dolor, iaculis sit amet felis sit amet, semper posuere elit. Duis sodales sodales enim eu tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc eu lacus maximus nisi faucibus pharetra vitae ac dui. Sed vel nisl sit amet urna viverra convallis vel ut erat.\n' +
         '\n' +

@@ -5,17 +5,27 @@
   align-items: center;
   width: 100%;
   height: auto;
-  padding: 150px 100px 150px 100px;
+  padding: 32px 100px 32px 100px;
   gap: 48px;
 
   .title-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
     width: 100%;
+    height: 300px;
+    background-image: url("/images/img-heading.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 64px;
+    border-radius: 32px;
 
     p {
       font-family: var(--font-secondary), sans-serif;
       text-shadow: var(--box-shadow-text);
       text-align: start;
-      color: var(--color-primary);
+      color: var(--color-white);
       font-size: var(--font-size-title);
       font-weight: bold;
     }

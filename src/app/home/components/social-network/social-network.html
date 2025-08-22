@@ -1,0 +1,18 @@
+<div class="social-network-container">
+  <div class="text-section">
+    <p class="title">Titulo para la sección <span>Redes Sociales</span></p>
+    <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sollicitudin ipsum posuere rutrum tristique. Sed et quam ultrices, eleifend.</p>
+  </div>
+  <div class="cards-scroll-wrapper">
+    <div class="cards">
+      @for (card of cards; track card) {
+        <home-crd-standard
+          [crdImage]="card.imageUrl"
+          [crdAlt]="card.alt"
+          [crdUrl]="card.url"
+        ></home-crd-standard>
+      }
+      <div class="scroll-padding-end"></div>
+    </div>
+  </div>
+</div>
