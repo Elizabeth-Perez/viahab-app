@@ -1,0 +1,98 @@
+<div class="formulary-principal-container">
+  <div class="information-section">
+    <img src="/images/img-contact.webp" alt="viahab-contact" />
+    <p class="title">Lorem ipsum dolor sit amet, consectetur</p>
+    <p class="description">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus justo vitae pulvinar consectetur. Integer porttitor purus ut risus aliquet, vitae placerat ipsum efficitur. Aliquam eget commodo dolor. Donec euismod scelerisque facilisis. Donec finibus finibus lacus sed venenatis. Maecenas pulvinar commodo elit sit amet tempor. Duis eleifend, risus ac feugiat faucibus, mauris enim vestibulum lorem, sed tempus sem massa ut turpis. Morbi ac ex sit amet mi tincidunt porttitor a eget augue.
+      Nunc lobortis tincidunt felis, quis cursus urna iaculis a. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent dignissim felis id elit iaculis rutrum. Nunc commodo euismod lectus, sed pulvinar nulla suscipit in. Vivamus
+    </p>
+  </div>
+  <div class="formulary-section">
+    <form class="travel-form">
+      <div class="form-header">
+        <p class="title">Solicita tu viaje personalizado</p>
+        <p class="description">
+          Completa el siguiente formulario para que podamos ayudarte a organizar tu viaje ideal.
+          Ya sea que viajes por placer, trabajo o representes a una agencia, cuéntanos lo que necesitas.
+        </p>
+      </div>
+      <!-- Sección: Datos personales -->
+      <fieldset>
+        <legend>Datos personales</legend>
+        <div class="form-row">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required />
+        </div>
+        <div class="form-row">
+          <label for="apellidoP">Apellido Paterno</label>
+          <input type="text" id="apellidoP" name="apellidoP" required />
+        </div>
+        <div class="form-row">
+          <label for="apellidoM">Apellido Materno</label>
+          <input type="text" id="apellidoM" name="apellidoM" />
+        </div>
+      </fieldset>
+
+      <!-- Sección: Fechas -->
+      <fieldset>
+        <legend>Fechas del viaje</legend>
+        <div class="form-row">
+          <label for="fechaEntrada">Fecha de entrada</label>
+          <input type="date" id="fechaEntrada" name="fechaEntrada" required />
+        </div>
+        <div class="form-row">
+          <label for="fechaSalida">Fecha de salida</label>
+          <input type="date" id="fechaSalida" name="fechaSalida" required />
+        </div>
+      </fieldset>
+
+      <!-- Sección: Destino -->
+      <fieldset>
+        <legend>Destino</legend>
+        <div class="form-row">
+          <label for="ciudad">Ciudad</label>
+          <input type="text" id="ciudad" name="ciudad" required />
+        </div>
+        <div class="form-row">
+          <label for="estado">Estado</label>
+          <input type="text" id="estado" name="estado" required />
+        </div>
+        <div class="form-row">
+          <label for="pais">País</label>
+          <input type="text" id="pais" name="pais" required />
+        </div>
+      </fieldset>
+
+      <!-- Sección: Ocupación -->
+      <fieldset>
+        <legend>Ocupación</legend>
+        <div class="form-row">
+          <label for="habitaciones">No. de habitaciones</label>
+          <input type="number" id="habitaciones" name="habitaciones" min="1" required />
+        </div>
+        <div class="form-row">
+          <label for="adultos">No. de adultos</label>
+          <input type="number" id="adultos" name="adultos" min="1" required />
+        </div>
+        <div class="form-row">
+          <label for="menores">No. de menores</label>
+          <input type="number" id="menores" name="menores" min="0" />
+        </div>
+      </fieldset>
+
+      <!-- Sección: Detalles adicionales -->
+      <fieldset>
+        <legend>Descripción del viaje</legend>
+        <div class="form-row">
+          <label for="descripcion">¿Qué estás buscando?</label>
+          <textarea id="descripcion" name="descripcion" rows="5" placeholder="Cuéntanos más sobre lo que necesitas..."></textarea>
+        </div>
+      </fieldset>
+
+      <!-- Botón de envío -->
+      <div class="form-actions">
+        <button type="submit">Enviar solicitud</button>
+      </div>
+    </form>
+  </div>
+</div>

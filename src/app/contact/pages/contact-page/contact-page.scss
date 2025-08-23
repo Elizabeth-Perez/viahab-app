@@ -1,0 +1,29 @@
+contact-formulary-principal {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  height: auto;
+}
+
+contact-head-contact {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  top: 101px;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+shared-maintenance-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
